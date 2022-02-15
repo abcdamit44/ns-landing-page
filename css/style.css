@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    display: flex;
+}
+
+.title {
+    background-color: #30326B;
+    color: #fff;
+    padding: 1.2vw 1.2vw 1.85vw;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.title h1 {
+    font-weight: 500;
+    margin-bottom: 1.1vw;
+}
+
+.title h5 {
+    font-weight: 500;
+    margin-bottom: 1.2vw;
+}
+
+.title a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 1vw;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5vw 1vw 0.75vw;
+    background-color: #C02FE4;
+    border-radius: 3px;
+}
+
+.title .menu-btn {
+    position: absolute;
+    top: 0.75vw;
+    left: 0.75vw;
+    border-radius: 2px;
+    background-color: #212443;
+    padding: 0.18vw 0.25vw 0.35vw;
+    height: 32px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.title .menu-btn span {
+    height: 2px;
+    width: 80%;
+    border-radius: 2px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 3px 5px;
+}
+
+.main-body {
+    width: 50%;
+    margin: 1.3vw auto;
+}
+
+.main-body h3 {
+    margin-bottom: 1.1vw;
+    font-size: 1.5rem;
+}
+
+.main-body p {
+    margin-bottom: 1.2vw;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.main-body ul {
+    padding-left: 2.5vw;
+    margin-bottom: 1.2vw;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.menubar {
+    height: 120vh;
+    width: 300px;
+    background-color: #30326B;
+    border-right: 1px solid grey;
+}
+
+.profile-pic {
+    margin: 3vw auto;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 50%;
+}
+
+.menubar {
+    display: none;
+    transition: 300ms ease-in-out;
+}
+
+.menubar ul {
+    list-style: none;
+}
+
+.menubar ul li {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 1.75vw 1.5vw;
+    border-top: 1px solid grey;
+}
+
+.menubar ul li:last-child {
+    border-bottom: 1px solid grey;
+}
+
+.show {
+    display: block !important;
+}
+
+.modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: auto;
+    display: none;
+}
+
+.sign-up-form {
+    background-color: #fff;
+    width: 28%;
+    margin: 20vh auto;
+    border-radius: 3px;
+}
+
+.close {
+    padding: 0.3vw 0.75vw 0.5vw;
+    background-color: #30336A;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0.8vw;
+    cursor: pointer;
+}
+
+.close span {
+    color: #fff;
+}
+
+.form-body {
+    padding: 1.2vw;
+}
+
+.form-body p {
+    font-size: 00.8rem;
+    font-weight: 600;
+    margin-bottom: 0.8vw;
+}
+
+.form-body form {
+    font-size: 00.8rem;
+    font-weight: 600;
+}
+
+.form-body form label {
+    display: block;
+    margin-bottom: 0.1vw;
+}
+
+.form-body form input {
+    width: 100%;
+    padding: 00.5vw;
+    margin-bottom: 0.9vw;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.form-body form button {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5vw 1vw 0.5vw;
+    background-color: #C02FE4;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
