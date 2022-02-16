@@ -119,6 +119,11 @@
     border-top: 1px solid grey;
 }
 
+.menubar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .menubar ul li:last-child {
     border-bottom: 1px solid grey;
 }
